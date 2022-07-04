@@ -1,6 +1,6 @@
 <?php
 
-namespace MadWeb\Enum\Test;
+namespace Bogordesain\Enum\Test;
 
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;

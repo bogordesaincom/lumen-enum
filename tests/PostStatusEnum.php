@@ -1,8 +1,8 @@
 <?php
 
-namespace MadWeb\Enum\Test;
+namespace Bogordesain\Enum\Test;
 
-use MadWeb\Enum\Enum;
+use Bogordesain\Enum\Enum;
 
 /**
  * @method static PostStatusEnum PUBLISHED()

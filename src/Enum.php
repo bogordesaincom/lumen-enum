@@ -1,6 +1,6 @@
 <?php
 
-namespace MadWeb\Enum;
+namespace Bogordesain\Enum;
 
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;

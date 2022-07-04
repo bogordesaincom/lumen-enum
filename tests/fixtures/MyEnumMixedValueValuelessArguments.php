@@ -2,7 +2,7 @@
 
 namespace App\Enums;
 
-use MadWeb\Enum\Enum;
+use Bogordesain\Enum\Enum;
 
 /**
  * @method static MyEnumMixedValueValuelessArguments WITH1()

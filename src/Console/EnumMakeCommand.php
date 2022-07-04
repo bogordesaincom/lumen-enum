@@ -1,6 +1,6 @@
 <?php
 
-namespace MadWeb\Enum\Console;
+namespace Bogordesain\Enum\Console;
 
 use Illuminate\Console\GeneratorCommand;
 use Symfony\Component\Console\Input\InputArgument;

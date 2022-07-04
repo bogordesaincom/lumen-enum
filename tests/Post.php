@@ -1,11 +1,11 @@
 <?php
 
-namespace MadWeb\Enum\Test;
+namespace Bogordesain\Enum\Test;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * @property \MadWeb\Enum\Test\PostStatusEnum $status
+ * @property \Bogordesain\Enum\Test\PostStatusEnum $status
  */
 class Post extends Model
 {

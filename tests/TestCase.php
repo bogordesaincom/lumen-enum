@@ -1,6 +1,6 @@
 <?php
 
-namespace MadWeb\Enum\Test;
+namespace Bogordesain\Enum\Test;
 
 use Illuminate\Database\Schema\Blueprint;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
@@ -37,7 +37,7 @@ class TestCase extends OrchestraTestCase
      */
     protected function getPackageProviders($app)
     {
-        return [\MadWeb\Enum\EnumServiceProvider::class];
+        return [\Bogordesain\Enum\EnumServiceProvider::class];
     }
 
     /**

@@ -1,10 +1,10 @@
 <?php
 
-namespace MadWeb\Enum\Rules;
+namespace Bogordesain\Enum\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 use InvalidArgumentException;
-use MadWeb\Enum\Enum;
+use Bogordesain\Enum\Enum;
 
 class EnumRule implements Rule
 {

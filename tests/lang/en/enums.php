@@ -1,6 +1,6 @@
 <?php
 
-use MadWeb\Enum\Test\PostStatusEnum;
+use Bogordesain\Enum\Test\PostStatusEnum;
 
 return [
     PostStatusEnum::class => [

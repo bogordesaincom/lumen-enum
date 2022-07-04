@@ -1,6 +1,6 @@
 <?php
 
-namespace MadWeb\Enum;
+namespace Bogordesain\Enum;
 
 /**
  * @mixin \MadWeb\Enum\Enum

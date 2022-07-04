@@ -1,6 +1,6 @@
 <?php
 
-namespace MadWeb\Enum\Test;
+namespace Bogordesain\Enum\Test;
 
 class EnumLabelsTest extends TestCase
 {
