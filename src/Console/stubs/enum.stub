@@ -1,0 +1,15 @@
+<?php
+
+namespace DummyNamespace;
+
+use MadWeb\Enum\Enum;
+
+/**
+DOCBLOCK
+ */
+final class DummyClass extends Enum
+{
+    const __default = self::DEFAULTVALUE;
+
+CONSTLIST
+}

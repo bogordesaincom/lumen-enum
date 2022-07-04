@@ -1,0 +1,55 @@
+{
+    "name": "mad-web/laravel-enum",
+    "description": "Elegant Enum implementation for Laravel. With make:enum command, ability to casting for Eloquent models and labels translations via lang files.",
+    "type": "library",
+    "keywords": [
+        "mad-web",
+        "enum",
+        "laravel-enum"
+    ],
+    "homepage": "https://github.com/mad-web/laravel-enum",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mad-web",
+            "email": "madweb.dev@gmail.com",
+            "homepage": "https://github.com/mad-web",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.3 || ^8.0",
+        "illuminate/console": "^7.0 || ^8.0",
+        "illuminate/support": "^7.0 || ^8.0",
+        "illuminate/translation": "^7.0 || ^8.0",
+        "myclabs/php-enum": "^1.7.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.0.0",
+        "orchestra/testbench": "^5.0 || ^6.0",
+        "phpunit/phpunit": "^8.0 || ^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "MadWeb\\Enum\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MadWeb\\Enum\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MadWeb\\Enum\\EnumServiceProvider"
+            ]
+        }
+    }
+}
