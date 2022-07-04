@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use MadWeb\Enum\Enum;
+use Bogordesain\Enum\Enum;
 
 /**
 DOCBLOCK
