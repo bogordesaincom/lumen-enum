@@ -14,10 +14,12 @@ You could find documentation for base features in [PHP Enum Readme](https://gith
 
 Features:
 
-- `make:enum` command
-- ability to cast enum fields for Eloquent models
-- labels translation via lang files
-- simple validation rule
+-   `make:enum` command
+-   ability to cast enum fields for Eloquent models
+-   labels translation via lang files
+-   simple validation rule
+
+This Package Fork From [Mad Web Enum](https://github.com/mad-web/laravel-enum)
 
 ## Simple Enum Example
 
@@ -67,7 +69,7 @@ php artisan make:enum PostStatusEnum DRAFT=draft PENDING=pending PUBLISHED=publi
 
 Create instance of Enum class
 
-``` php
+```php
 $status = new PostStatusEnum(PostStatusEnum::PENDING);
 
 // or just use magic static method
@@ -144,7 +146,7 @@ return [
 
 You may validate an enum value from a request by using the `EnumRule` class or `Enum::rule()` method.
 
-``` php
+```php
 public function store(Request $request)
 {
     $this->validate($request, [
@@ -159,10 +161,10 @@ public function store(Request $request)
 }
 ```
 
-If you want to validate an enum key instead of an enum value you can by specifying you want to validate against the key 
+If you want to validate an enum key instead of an enum value you can by specifying you want to validate against the key
 instead of the value.
 
-``` php
+```php
 public function store(Request $request)
 {
     $this->validate($request, [
@@ -176,7 +178,7 @@ public function store(Request $request)
     ]);
 }
 ```
- 
+
 ---
 
 To customize validation message, add `enum` key to validation lang file
@@ -267,7 +269,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Testing
 
-``` bash
+```bash
 composer test
 ```
 
@@ -281,8 +283,8 @@ If you discover any security related issues, please email madweb.dev@gmail.com i
 
 ## Credits
 
-- [Mad Web](https://github.com/mad-web)
-- [All Contributors](../../contributors)
+-   [Mad Web](https://github.com/mad-web)
+-   [All Contributors](../../contributors)
 
 ## License
 
@@ -295,7 +297,6 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/mad-web/laravel-enum.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/mad-web/laravel-enum.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/mad-web/laravel-enum.svg?style=flat-square
-
 [link-packagist]: https://packagist.org/packages/mad-web/laravel-enum
 [link-tests]: https://github.com/mad-web/laravel-enum/actions
 [link-style]: https://styleci.io/repos/138497948
